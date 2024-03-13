@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Sec. 00 - Permanent*/
+
+.sec00 header {
+    display: flex;
+    background-color: yellowgreen;
+    height: 100px;
+    padding: 0 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec00 .branding {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.sec00 header ul {
+    display: flex;
+    list-style: none;
+}
+
+.sec00 img {
+    height: 50px;
+}
